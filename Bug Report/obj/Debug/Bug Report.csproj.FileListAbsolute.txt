@@ -1,0 +1,189 @@
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Bug Report.exe.config
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Bug Report.exe
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Bug Report.pdb
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\MaterialSkin.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\MetroFramework.Design.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\MetroFramework.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\obj\Debug\Bug_Report.Form1.resources
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\obj\Debug\Bug_Report.Properties.Resources.resources
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\obj\Debug\Bug Report.csproj.GenerateResource.Cache
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\obj\Debug\Bug Report.csproj.CoreCompileInputs.cache
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\obj\Debug\Bug Report.exe
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\obj\Debug\Bug Report.pdb
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\obj\Debug\Bug_Report.AdminForm.resources
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\obj\Debug\Bug_Report.EmpForm.resources
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\obj\Debug\Bug_Report.UserForm.resources
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.AnalysisServices.AppLocal.Core.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.AnalysisServices.AppLocal.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.AnalysisServices.AppLocal.Tabular.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\EnvDTE.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\stdole.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\EnvDTE80.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\VSLangProj.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\VSLangProj80.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\VSLangProj2.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\obj\Debug\Bug Report.exe.config
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\kancha-sys.mdb
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\obj\Debug\Bug Report.csproj.CopyComplete
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Bug Report.exe.CodeAnalysisLog.xml
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\bin\Debug\Bug Report.exe.lastcodeanalysissucceeded
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\obj\Debug\Bug Report.csprojAssemblyReference.cache
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\obj\Debug\RdlCompile.cache
+C:\Users\Ali Khan\source\repos\Bug Report\Bug Report\obj\Debug\RdlCompile.compiled
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\kancha-sys.mdb
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\Bug Report.exe.config
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\Bug Report.exe
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\Bug Report.pdb
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\Bug Report.exe.CodeAnalysisLog.xml
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\Bug Report.exe.lastcodeanalysissucceeded
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\MaterialSkin.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\MetroFramework.Design.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\MetroFramework.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\MetroFramework.Fonts.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\Newtonsoft.Json.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\EnvDTE.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\stdole.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\Microsoft.MSXML.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\obj\Debug\Bug Report.csproj.AssemblyReference.cache
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\obj\Debug\Bug_Report.AdminForm.resources
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\obj\Debug\Bug_Report.EmpForm.resources
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\obj\Debug\Bug_Report.Form1.resources
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\obj\Debug\Bug_Report.Properties.Resources.resources
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\obj\Debug\Bug_Report.UserForm.resources
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\obj\Debug\Bug Report.csproj.GenerateResource.cache
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\obj\Debug\Bug Report.csproj.CoreCompileInputs.cache
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\obj\Debug\Bug Report.csproj.CopyComplete
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\obj\Debug\Bug Report.exe
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\obj\Debug\Bug Report.pdb

@@ -1,0 +1,8 @@
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\obj\x64\Debug\Bug Report.csproj.AssemblyReference.cache
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\obj\x64\Debug\Bug_Report.AdminForm.resources
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\obj\x64\Debug\Bug_Report.EmpForm.resources
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\obj\x64\Debug\Bug_Report.Form1.resources
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\obj\x64\Debug\Bug_Report.Properties.Resources.resources
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\obj\x64\Debug\Bug_Report.UserForm.resources
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\obj\x64\Debug\Bug Report.csproj.GenerateResource.cache
+D:\oldWindow's data\source\repos\Bug Report\Bug Report\obj\x64\Debug\Bug Report.csproj.CoreCompileInputs.cache

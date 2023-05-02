@@ -1,0 +1,897 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2019\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="16.0">
+ <Namespaces>
+  <Namespace Name="Bug_Report">
+   <Messages>
+    <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="95" Level="Error">Remove the underscores from namespace name 'Bug_Report'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="Bug_Report._kancha_sysDataSetTableAdapters">
+   <Messages>
+    <Message Id="kancha" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'kancha' in namespace name 'Bug_Report._kancha_sysDataSetTableAdapters' by changing it to 'Kancha'.</Issue>
+    </Message>
+    <Message Id="sys" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'sys' in namespace name 'Bug_Report._kancha_sysDataSetTableAdapters' by changing it to 'Sys'.</Issue>
+    </Message>
+    <Message Id="kancha" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'kancha' in namespace name 'Bug_Report._kancha_sysDataSetTableAdapters'.</Issue>
+    </Message>
+    <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="95" Level="Error">Remove the underscores from namespace name 'Bug_Report._kancha_sysDataSetTableAdapters'.</Issue>
+     <Issue Name="Namespace" Certainty="95" Level="Error">Remove the underscores from namespace name 'Bug_Report._kancha_sysDataSetTableAdapters'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+ </Namespaces>
+ <Targets>
+  <Target Name="D:\oldWindow's data\source\repos\Bug Report\Bug Report\bin\Debug\Bug Report.exe">
+   <Modules>
+    <Module Name="bug report.exe">
+     <Messages>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'Bug Report.exe' with a strong name key.</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Error">Mark 'Bug Report.exe' with CLSCompliant(true) because it exposes externally visible types.</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Warning">Because assembly 'Bug Report.exe' contains a ResX-based resource file, mark it with the NeutralResourcesLanguage attribute, specifying the language of the resources within the assembly. This could improve lookup performance the first time a resource is retrieved.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="Bug_Report">
+       <Types>
+        <Type Name="_kancha_sysDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="kancha" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'kancha' in type name '_kancha_sysDataSet' by changing it to 'Kancha'.</Issue>
+          </Message>
+          <Message Id="sys" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'sys' in type name '_kancha_sysDataSet' by changing it to 'Sys'.</Issue>
+          </Message>
+          <Message Id="kancha" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'kancha' in type name '_kancha_sysDataSet'.</Issue>
+          </Message>
+          <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">Remove the underscores from type name '_kancha_sysDataSet'.</Issue>
+          </Message>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type '_kancha_sysDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="_kancha_sysDataSet+adminDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="admin" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'admin' in type name '_kancha_sysDataSet.adminDataTable' by changing it to 'Admin'.</Issue>
+          </Message>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type '_kancha_sysDataSet.adminDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="_kancha_sysDataSet+AdminReportDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type '_kancha_sysDataSet.AdminReportDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="_kancha_sysDataSet+adminRow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="admin" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'admin' in type name '_kancha_sysDataSet.adminRow' by changing it to 'Admin'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="_kancha_sysDataSet+complainDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="complain" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'complain' in type name '_kancha_sysDataSet.complainDataTable' by changing it to 'Complain'.</Issue>
+          </Message>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type '_kancha_sysDataSet.complainDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="_kancha_sysDataSet+complainRow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="complain" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'complain' in type name '_kancha_sysDataSet.complainRow' by changing it to 'Complain'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="_kancha_sysDataSet+employeeDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="employee" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'employee' in type name '_kancha_sysDataSet.employeeDataTable' by changing it to 'Employee'.</Issue>
+          </Message>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type '_kancha_sysDataSet.employeeDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="_kancha_sysDataSet+employeeRow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="employee" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'employee' in type name '_kancha_sysDataSet.employeeRow' by changing it to 'Employee'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="_kancha_sysDataSet+EmpTaskDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Emp" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Emp' in type name '_kancha_sysDataSet.EmpTaskDataTable'.</Issue>
+          </Message>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type '_kancha_sysDataSet.EmpTaskDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="_kancha_sysDataSet+EmpTaskRow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Emp" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Emp' in type name '_kancha_sysDataSet.EmpTaskRow'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="_kancha_sysDataSet+jobDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="job" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'job' in type name '_kancha_sysDataSet.jobDataTable' by changing it to 'Job'.</Issue>
+          </Message>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type '_kancha_sysDataSet.jobDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="_kancha_sysDataSet+jobRow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="job" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'job' in type name '_kancha_sysDataSet.jobRow' by changing it to 'Job'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="_kancha_sysDataSet+UserComplainDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type '_kancha_sysDataSet.UserComplainDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="_kancha_sysDataSet+userDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="user" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'user' in type name '_kancha_sysDataSet.userDataTable' by changing it to 'User'.</Issue>
+          </Message>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type '_kancha_sysDataSet.userDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="_kancha_sysDataSet+userRow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="user" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'user' in type name '_kancha_sysDataSet.userRow' by changing it to 'User'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="AdminForm" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btn_adminComplainUpdate_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.cs" Line="95">In method 'AdminForm.btn_adminComplainUpdate_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'new OleDbCommand()' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.cs" Line="117">Method 'AdminForm.btn_adminComplainUpdate_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string)'. Retrieve the following string(s) from a resource table instead: "Job Assign Successfully".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.cs" Line="122">Method 'AdminForm.btn_adminComplainUpdate_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string)'. Retrieve the following string(s) from a resource table instead: "Updated....".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.cs" Line="106">Method 'AdminForm.btn_adminComplainUpdate_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string)'. Retrieve the following string(s) from a resource table instead: "eid=".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.cs" Line="114">Method 'AdminForm.btn_adminComplainUpdate_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string)'. Retrieve the following string(s) from a resource table instead: "insert into [job] ([a_id],[e_id],[u_id],[c_id]) values (\', \',\', \');".</Issue>
+            </Message>
+            <Message Id="eid" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.cs" Line="106">Correct the spelling of the unrecognized token 'eid' in the literal '"eid="'.</Issue>
+             <Issue Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.cs" Line="114">Correct the spelling of the unrecognized token 'eid' in the literal '"insert into [job] ([a_id],[e_id],[u_id],[c_id]) values (\'"'.</Issue>
+            </Message>
+            <Message Id="uid" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.cs" Line="114">Correct the spelling of the unrecognized token 'uid' in the literal '"insert into [job] ([a_id],[e_id],[u_id],[c_id]) values (\'"'.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.cs" Line="112">The query string passed to 'OleDbCommand.CommandText.set(string)' in 'AdminForm.btn_adminComplainUpdate_Click(object, EventArgs)' could contain the following variables 'new string[9][1]', 'this.txt_adminUID.Text', 'this.txt_adminCID.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.cs" Line="95">The query string passed to 'OleDbCommand.CommandText.set(string)' in 'AdminForm.btn_adminComplainUpdate_Click(object, EventArgs)' could contain the following variables 'this.ComboBox_adminEmp.SelectedText'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.cs" Line="111">Because the behavior of 'int.ToString()' could vary based on the current user's locale settings, replace this call in 'AdminForm.btn_adminComplainUpdate_Click(object, EventArgs)' with a call to 'int.ToString(IFormatProvider)'. If the result of 'int.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.cs" Line="106">Change 'AdminForm.btn_adminComplainUpdate_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+             <Issue Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.cs" Line="114">Change 'AdminForm.btn_adminComplainUpdate_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+             <Issue Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.cs" Line="117">Change 'AdminForm.btn_adminComplainUpdate_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+             <Issue Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.cs" Line="122">Change 'AdminForm.btn_adminComplainUpdate_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btn_adminLogin_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.cs" Line="69">In method 'AdminForm.btn_adminLogin_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'new OleDbCommand()' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.cs" Line="69">The query string passed to 'OleDbCommand.CommandText.set(string)' in 'AdminForm.btn_adminLogin_Click(object, EventArgs)' could contain the following variables 'this.txt_adminUsername.Text', 'this.txt_adminPassword.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#con_str" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="str" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'str' in member name 'AdminForm.con_str' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'AdminForm.con_str' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.Designer.cs" Line="682">Method 'AdminForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Admin Portal".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.Designer.cs" Line="276">Method 'AdminForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Complain Report".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.Designer.cs" Line="327">Method 'AdminForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Dashboard".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.Designer.cs" Line="602">Method 'AdminForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Dashboard".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.Designer.cs" Line="225">Method 'AdminForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Login".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.Designer.cs" Line="567">Method 'AdminForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Report".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.Designer.cs" Line="532">Method 'AdminForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Sign Out".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.Designer.cs" Line="426">Method 'AdminForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Update".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.Designer.cs" Line="375">Method 'AdminForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "User ID".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.Designer.cs" Line="123">Method 'AdminForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Username or Password is incorrent".</Issue>
+            </Message>
+            <Message Id="System.Windows.Forms.DataGridViewColumn.set_HeaderText(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.Designer.cs" Line="657">Method 'AdminForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'DataGridViewColumn.HeaderText.set(string)'. Retrieve the following string(s) from a resource table instead: "Complain Description".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.Designer.cs" Line="650">Method 'AdminForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'DataGridViewColumn.HeaderText.set(string)'. Retrieve the following string(s) from a resource table instead: "Complain ID".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.Designer.cs" Line="670">Method 'AdminForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'DataGridViewColumn.HeaderText.set(string)'. Retrieve the following string(s) from a resource table instead: "Complain Status".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.Designer.cs" Line="664">Method 'AdminForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'DataGridViewColumn.HeaderText.set(string)'. Retrieve the following string(s) from a resource table instead: "User ID".</Issue>
+            </Message>
+            <Message Id="incorrent" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="AdminForm.Designer.cs" Line="123">Correct the spelling of the unrecognized token 'incorrent' in the literal '"Username or Password is incorrent"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DataSet1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldHaveCorrectSuffix" Category="Microsoft.Naming" CheckId="CA1710" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">Rename 'DataSet1' to end in 'DataSet'.</Issue>
+          </Message>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'DataSet1'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="EmpForm" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Emp" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Emp' in type name 'EmpForm'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#btn_adminLogin_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="27">In method 'EmpForm.btn_adminLogin_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'new OleDbCommand()' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="27">The query string passed to 'OleDbCommand.CommandText.set(string)' in 'EmpForm.btn_adminLogin_Click(object, EventArgs)' could contain the following variables 'this.txt_empUsername.Text', 'this.txt_empPassword.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btn_empComplainUpdate_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="165">In method 'EmpForm.btn_empComplainUpdate_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="176">Method 'EmpForm.btn_empComplainUpdate_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string)'. Retrieve the following string(s) from a resource table instead: "DATA UPDATED".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="188">Method 'EmpForm.btn_empComplainUpdate_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string)'. Retrieve the following string(s) from a resource table instead: "ERROR".</Issue>
+            </Message>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="180">Modify 'EmpForm.btn_empComplainUpdate_Click(object, EventArgs)' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="169">The query string passed to 'OleDbCommand.CommandText.set(string)' in 'EmpForm.btn_empComplainUpdate_Click(object, EventArgs)' could contain the following variables 'this.ComboBox_EmpJobStatus.SelectedItem', 'this.txt_empCID.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="176">Change 'EmpForm.btn_empComplainUpdate_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+             <Issue Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="182">Change 'EmpForm.btn_empComplainUpdate_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+             <Issue Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="188">Change 'EmpForm.btn_empComplainUpdate_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btn_EmpSignup_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="60">In method 'EmpForm.btn_EmpSignup_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="83">Method 'EmpForm.btn_EmpSignup_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string)'. Retrieve the following string(s) from a resource table instead: "Data inserted!".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="80">Method 'EmpForm.btn_EmpSignup_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string)'. Retrieve the following string(s) from a resource table instead: "insert into [employee] ([e_fname],[e_lname],[e_email],[e_password],[username]) v...".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="63">Method 'EmpForm.btn_EmpSignup_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string)'. Retrieve the following string(s) from a resource table instead: "select count(*) from [employee] where username=\', \'".</Issue>
+            </Message>
+            <Message Id="eemail" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="80">Correct the spelling of the unrecognized token 'eemail' in the literal '"insert into [employee] ([e_fname],[e_lname],[e_email],[e_password],[username]) v..."'.</Issue>
+            </Message>
+            <Message Id="efname" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="80">Correct the spelling of the unrecognized token 'efname' in the literal '"insert into [employee] ([e_fname],[e_lname],[e_email],[e_password],[username]) v..."'.</Issue>
+            </Message>
+            <Message Id="elname" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="80">Correct the spelling of the unrecognized token 'elname' in the literal '"insert into [employee] ([e_fname],[e_lname],[e_email],[e_password],[username]) v..."'.</Issue>
+            </Message>
+            <Message Id="epassword" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="80">Correct the spelling of the unrecognized token 'epassword' in the literal '"insert into [employee] ([e_fname],[e_lname],[e_email],[e_password],[username]) v..."'.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="78">The query string passed to 'OleDbCommand.CommandText.set(string)' in 'EmpForm.btn_EmpSignup_Click(object, EventArgs)' could contain the following variables 'this.txtSignup_fname.Text', 'this.txtSignup_lname.Text', 'this.txtSignup_email.Text', 'this.txtSignup_pass.Text', 'this.txtSignup_uname.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="64">The query string passed to 'OleDbCommand.CommandText.set(string)' in 'EmpForm.btn_EmpSignup_Click(object, EventArgs)' could contain the following variables 'this.txtSignup_uname.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="63">Change 'EmpForm.btn_EmpSignup_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+             <Issue Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="80">Change 'EmpForm.btn_EmpSignup_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+             <Issue Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="83">Change 'EmpForm.btn_EmpSignup_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#con_str" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="str" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'str' in member name 'EmpForm.con_str' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'EmpForm.con_str' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#EmpForm_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.cs" Line="108">Method 'EmpForm.EmpForm_Load(object, EventArgs)' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Status".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="262">Method 'EmpForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Already have an account".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="517">Method 'EmpForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Complain Report".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="466">Method 'EmpForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Create an account".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="880">Method 'EmpForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Employee Portal".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="370">Method 'EmpForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Login".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="795">Method 'EmpForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Report".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="760">Method 'EmpForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Sign Out".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="297">Method 'EmpForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Sign Up".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="831">Method 'EmpForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Tasks".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="632">Method 'EmpForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Update".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="182">Method 'EmpForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Username or Password is incorrent".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="385">Method 'EmpForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Username or Password is incorrent".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="564">Method 'EmpForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Your Tasks".</Issue>
+            </Message>
+            <Message Id="System.Windows.Forms.DataGridViewColumn.set_HeaderText(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="676">Method 'EmpForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'DataGridViewColumn.HeaderText.set(string)'. Retrieve the following string(s) from a resource table instead: "Complain Description".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="670">Method 'EmpForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'DataGridViewColumn.HeaderText.set(string)'. Retrieve the following string(s) from a resource table instead: "Complain ID".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="682">Method 'EmpForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'DataGridViewColumn.HeaderText.set(string)'. Retrieve the following string(s) from a resource table instead: "Complain Status".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="694">Method 'EmpForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'DataGridViewColumn.HeaderText.set(string)'. Retrieve the following string(s) from a resource table instead: "First Name".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="700">Method 'EmpForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'DataGridViewColumn.HeaderText.set(string)'. Retrieve the following string(s) from a resource table instead: "Last Name".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="688">Method 'EmpForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'DataGridViewColumn.HeaderText.set(string)'. Retrieve the following string(s) from a resource table instead: "User ID".</Issue>
+            </Message>
+            <Message Id="incorrent" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="182">Correct the spelling of the unrecognized token 'incorrent' in the literal '"Username or Password is incorrent"'.</Issue>
+             <Issue Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="EmpForm.Designer.cs" Line="385">Correct the spelling of the unrecognized token 'incorrent' in the literal '"Username or Password is incorrent"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Form1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#bunifuFlatButton1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="Form1.cs" Line="27">In method 'Form1.bunifuFlatButton1_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'af' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#bunifuFlatButton2_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="Form1.cs" Line="33">In method 'Form1.bunifuFlatButton2_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'ef' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#bunifuFlatButton3_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="Form1.cs" Line="39">In method 'Form1.bunifuFlatButton3_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'uf' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="Form1.Designer.cs" Line="69">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Admin".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="Form1.Designer.cs" Line="104">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Employee".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="Form1.Designer.cs" Line="183">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Form1".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="Form1.Designer.cs" Line="139">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "User".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="Form1.Designer.cs" Line="155">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Who Are You?".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UserForm" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btn_bugSubmit_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="114">In method 'UserForm.btn_bugSubmit_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'new OleDbCommand()' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="135">Method 'UserForm.btn_bugSubmit_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string)'. Retrieve the following string(s) from a resource table instead: "Data inserted!".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="132">Method 'UserForm.btn_bugSubmit_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string)'. Retrieve the following string(s) from a resource table instead: "insert into [complain] ([c_description],[u_id],[c_status]) values (\', \',\', \'...".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="125">Method 'UserForm.btn_bugSubmit_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string)'. Retrieve the following string(s) from a resource table instead: "uid=".</Issue>
+            </Message>
+            <Message Id="cdescription" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="132">Correct the spelling of the unrecognized token 'cdescription' in the literal '"insert into [complain] ([c_description],[u_id],[c_status]) values (\'"'.</Issue>
+            </Message>
+            <Message Id="cstatus" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="132">Correct the spelling of the unrecognized token 'cstatus' in the literal '"insert into [complain] ([c_description],[u_id],[c_status]) values (\'"'.</Issue>
+            </Message>
+            <Message Id="uid" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="132">Correct the spelling of the unrecognized token 'uid' in the literal '"insert into [complain] ([c_description],[u_id],[c_status]) values (\'"'.</Issue>
+             <Issue Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="125">Correct the spelling of the unrecognized token 'uid' in the literal '"uid="'.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="130">The query string passed to 'OleDbCommand.CommandText.set(string)' in 'UserForm.btn_bugSubmit_Click(object, EventArgs)' could contain the following variables 'this.txt_bugIssue.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="114">The query string passed to 'OleDbCommand.CommandText.set(string)' in 'UserForm.btn_bugSubmit_Click(object, EventArgs)' could contain the following variables 'this.txtlogin_username.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="125">Change 'UserForm.btn_bugSubmit_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+             <Issue Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="132">Change 'UserForm.btn_bugSubmit_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+             <Issue Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="135">Change 'UserForm.btn_bugSubmit_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btn_signup_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="77">In method 'UserForm.btn_signup_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="100">Method 'UserForm.btn_signup_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string)'. Retrieve the following string(s) from a resource table instead: "Data inserted!".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="97">Method 'UserForm.btn_signup_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string)'. Retrieve the following string(s) from a resource table instead: "insert into [user] ([u_fname],[u_lname],[u_email],[u_password],[username]) value...".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="80">Method 'UserForm.btn_signup_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string)'. Retrieve the following string(s) from a resource table instead: "select count(*) from [user] where username=\', \'".</Issue>
+            </Message>
+            <Message Id="uemail" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="97">Correct the spelling of the unrecognized token 'uemail' in the literal '"insert into [user] ([u_fname],[u_lname],[u_email],[u_password],[username]) value..."'.</Issue>
+            </Message>
+            <Message Id="ufname" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="97">Correct the spelling of the unrecognized token 'ufname' in the literal '"insert into [user] ([u_fname],[u_lname],[u_email],[u_password],[username]) value..."'.</Issue>
+            </Message>
+            <Message Id="ulname" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="97">Correct the spelling of the unrecognized token 'ulname' in the literal '"insert into [user] ([u_fname],[u_lname],[u_email],[u_password],[username]) value..."'.</Issue>
+            </Message>
+            <Message Id="upassword" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="97">Correct the spelling of the unrecognized token 'upassword' in the literal '"insert into [user] ([u_fname],[u_lname],[u_email],[u_password],[username]) value..."'.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="95">The query string passed to 'OleDbCommand.CommandText.set(string)' in 'UserForm.btn_signup_Click(object, EventArgs)' could contain the following variables 'this.txtsignup_fname.Text', 'this.txtsignup_lname.Text', 'this.txtsignup_email.Text', 'this.txtsignup_pass.Text', 'this.txtsignup_uname.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="81">The query string passed to 'OleDbCommand.CommandText.set(string)' in 'UserForm.btn_signup_Click(object, EventArgs)' could contain the following variables 'this.txtsignup_uname.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="80">Change 'UserForm.btn_signup_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+             <Issue Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="97">Change 'UserForm.btn_signup_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+             <Issue Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="100">Change 'UserForm.btn_signup_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btn_userlogin_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="36">In method 'UserForm.btn_userlogin_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'new OleDbCommand()' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="36">The query string passed to 'OleDbCommand.CommandText.set(string)' in 'UserForm.btn_userlogin_Click(object, EventArgs)' could contain the following variables 'this.txtlogin_username.Text', 'this.txtlogin_password.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Con_str" Kind="Property" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="str" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="12">Correct the casing of 'str' in member name 'UserForm.Con_str' by changing it to 'Str'.</Issue>
+            </Message>
+            <Message Id="str" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="12">Correct the spelling of 'str' in member name 'UserForm.Con_str' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="12">Remove the underscores from member name 'UserForm.Con_str'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Con_str1" Kind="Property" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="str" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="13">Correct the casing of 'str' in member name 'UserForm.Con_str1' by changing it to 'Str'.</Issue>
+            </Message>
+            <Message Id="str" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="13">Correct the spelling of 'str' in member name 'UserForm.Con_str1' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="13">Remove the underscores from member name 'UserForm.Con_str1'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.Designer.cs" Line="418">Method 'UserForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Bug Issue".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.Designer.cs" Line="305">Method 'UserForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Login".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.Designer.cs" Line="615">Method 'UserForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Report a Bug".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.Designer.cs" Line="143">Method 'UserForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "SIGN UP".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.Designer.cs" Line="545">Method 'UserForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Sign Out".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.Designer.cs" Line="175">Method 'UserForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Sign Up".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.Designer.cs" Line="450">Method 'UserForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Submit".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.Designer.cs" Line="633">Method 'UserForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "User Portal".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.Designer.cs" Line="120">Method 'UserForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Username already exist".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.Designer.cs" Line="131">Method 'UserForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Username or Password is Incorrect".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.Designer.cs" Line="580">Method 'UserForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "View Existing Bug".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.Designer.cs" Line="405">Method 'UserForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Write your complain here.".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.Designer.cs" Line="495">Method 'UserForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Your Issues".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#txt_bugIssue_MouseLeave(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="154">Method 'UserForm.txt_bugIssue_MouseLeave(object, EventArgs)' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Write your complain here.".</Issue>
+            </Message>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report" File="UserForm.cs" Line="152">Replace the call to 'string.operator ==(string, string)' in 'UserForm.txt_bugIssue_MouseLeave(object, EventArgs)' with a call to 'String.IsNullOrEmpty'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Bug_Report._kancha_sysDataSetTableAdapters">
+       <Types>
+        <Type Name="adminTableAdapter" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="admin" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'admin' in type name 'adminTableAdapter' by changing it to 'Admin'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="complainTableAdapter" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="complain" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'complain' in type name 'complainTableAdapter' by changing it to 'Complain'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="employeeTableAdapter" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="employee" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'employee' in type name 'employeeTableAdapter' by changing it to 'Employee'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="EmpTaskTableAdapter" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Emp" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Emp' in type name 'EmpTaskTableAdapter'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="jobTableAdapter" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="job" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'job' in type name 'jobTableAdapter' by changing it to 'Job'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="userTableAdapter" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="user" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'user' in type name 'userTableAdapter' by changing it to 'User'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="SqlServerTypes">
+       <Types>
+        <Type Name="Utilities" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">Because type 'Utilities' contains only 'static' ('Shared' in Visual Basic) members, add a default private constructor to prevent the compiler from adding a default public constructor.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#LoadLibrary(System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">Because it is a P/Invoke method, 'Utilities.LoadLibrary(string)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Issue>
+            </Message>
+            <Message Id="0" TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+             <Issue Name="Parameter" Certainty="75" Level="Error">To reduce security risk, marshal parameter 'libname' as Unicode, by setting DllImport.CharSet to CharSet.Unicode, or by explicitly marshaling the parameter as UnmanagedType.LPWStr. If you need to marshal this string as ANSI or system-dependent, set BestFitMapping=false; for added security, also set ThrowOnUnmappableChar=true.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LoadNativeAssembly(System.String,System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report\SqlServerTypes" File="Loader.cs" Line="38">'Utilities.LoadNativeAssembly(string, string)' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
+            </Message>
+            <Message Id="ErrorCode" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report\SqlServerTypes" File="Loader.cs" Line="38">Correct the spelling of the unrecognized token 'ErrorCode' in the literal '" (ErrorCode: "'.</Issue>
+            </Message>
+            <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2023-03-05 12:11:09Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="D:\oldWindow's data\source\repos\Bug Report\Bug Report\SqlServerTypes" File="Loader.cs" Line="38">Because the behavior of 'string.Format(string, object, object)' could vary based on the current user's locale settings, replace this call in 'Utilities.LoadNativeAssembly(string, string)' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+   <Name>Assemblies should have valid strong names</Name>
+   <Description>Either the assembly has no strong name, an invalid one, or the strong name is valid only because of the computer configuration. The assembly should not be deployed in this state. The most common causes of this are: 1) The assembly's contents were modified after it was signed. 2) The signing process failed. 3) The assembly was delay-signed. 4) A registry key existed that allowed the check to pass (where it would not have otherwise).</Description>
+   <Resolution Name="NoStrongName">Sign {0} with a strong name key.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182127.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>Dispose objects before losing scope</Name>
+   <Description>If a disposable object is not explicitly disposed before all references to it are out of scope, the object will be disposed at some indeterminate time when the garbage collector runs the finalizer of the object. Because an exceptional event might occur that will prevent the finalizer of the object from running, the object should be explicitly disposed instead.</Description>
+   <Resolution Name="NonExceptionEdge">In method {0}, call System.IDisposable.Dispose on object {1} before all references to it are out of scope.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182289.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303">
+   <Name>Do not pass literals as localized parameters</Name>
+   <Description>Literal strings that are embedded in source code are difficult to localize. Avoid passing literal strings as arguments in circumstances where a localized string is generally expected.</Description>
+   <Resolution Name="KnownValue">Method {0} passes a literal string as parameter '{1}' of a call to {2}. Retrieve the following string(s) from a resource table instead: {3}.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182187.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031">
+   <Name>Do not catch general exception types</Name>
+   <Description>You should not catch Exception or SystemException. Catching generic exception types can hide run-time problems from the library user, and can complicate debugging. You should catch only those exceptions that you can handle gracefully.</Description>
+   <Resolution Name="Default">Modify {0} to catch a more specific exception than {1} or rethrow the exception.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182137.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201">
+   <Name>Do not raise reserved exception types</Name>
+   <Description>User code should not create and raise exceptions of certain types that are reserved by the runtime or which are of a too general exception type. Exception types that are too general include Exception, SystemException, and ApplicationException. Exception types that are reserved by the runtime include ThreadAbortException, OutOfMemoryException, ExecutionEngineException, and IndexOutOfRangeException.</Description>
+   <Resolution Name="TooGeneric">{0} creates an exception of type {1}, an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182338.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709">
+   <Name>Identifiers should be cased correctly</Name>
+   <Description>Type, namespace, and member identifiers are Pascal-cased. Parameter identifiers are camel-cased. Two letter acronyms within these identifiers should be upper-cased, for example, use System.IO instead of System.Io. Acronyms of three or more letters should be Pascal-cased, for example, use System.Xml instead of System.XML. The pascal-casing convention capitalizes the first letter of each word, as in BackColor. The camel-casing convention formats the first letter of the first word in lowercase and capitalizes the first letter of all subsequent words, as in backgroundColor. Although it may be common practice for some two letter acronyms to not be fully capitalized, violations of this rule should not be excluded for this reason. For example, 'DbConnection', is common but incorrect; use DBConnection. A violation of this rule might be required for compatibility with existing, non-managed symbol schemes. In general, however, these symbols should not be visible outside the assembly that uses them.</Description>
+   <Resolution Name="Member">Correct the casing of '{0}' in member name {1} by changing it to '{2}'.</Resolution>
+   <Resolution Name="Namespace">Correct the casing of '{0}' in namespace name '{1}' by changing it to '{2}'.</Resolution>
+   <Resolution Name="Type">Correct the casing of '{0}' in type name {1} by changing it to '{2}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182240.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="85">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+   <Name>Identifiers should be spelled correctly</Name>
+   <Description>The individual words that make up an identifier should not be abbreviated and should be spelled correctly. If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</Description>
+   <Resolution Name="Member">Correct the spelling of '{0}' in member name {1} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="Namespace">Correct the spelling of '{0}' in namespace name '{1}'.</Resolution>
+   <Resolution Name="Type">Correct the spelling of '{0}' in type name {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264492.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="namingrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldHaveCorrectSuffix" Category="Microsoft.Naming" CheckId="CA1710">
+   <Name>Identifiers should have correct suffix</Name>
+   <Description>Types that extend certain base types have specified name suffixes. Types that extend Attribute, for example, should be suffixed in 'Attribute', as in ObsoleteAttribute. This rules checks types that extend several base types, including Attribute, Exception, EventArgs, IMembershipPermission, Stream, and others.</Description>
+   <Resolution Name="Default">Rename {0} to end in '{1}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182244.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707">
+   <Name>Identifiers should not contain underscores</Name>
+   <Description>Do not use underscores when specifying identifiers. Some generated Visual Studio identifiers for applications contain underscore characters. Underscore characters should generally be avoided in public identifiers.</Description>
+   <Resolution Name="Member">Remove the underscores from member name {0}.</Resolution>
+   <Resolution Name="Namespace">Remove the underscores from namespace name '{0}'.</Resolution>
+   <Resolution Name="Type">Remove the underscores from type name {0}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182245.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240">
+   <Name>Implement ISerializable correctly</Name>
+   <Description>If a type is assignable to ISerializable, it should implement GetObjectData. For unsealed types, the GetObjectData method should be callable and overridable by derived types.</Description>
+   <Resolution Name="Default">Add an implementation of GetObjectData to type {0}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182342.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="60">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204">
+   <Name>Literals should be spelled correctly</Name>
+   <Description>This rule parses the literal string into words, tokenizing compound words, and checks the spelling of each word/token.</Description>
+   <Resolution Name="Default">Correct the spelling of the unrecognized token '{0}' in the literal '{1}'.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/bb264488.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014">
+   <Name>Mark assemblies with CLSCompliantAttribute</Name>
+   <Description>Assemblies should explicitly state their CLS compliance using the CLSCompliant attribute. An assembly without this attribute is not CLS-compliant. Assemblies, modules, and types can be CLS-compliant even if some parts of the assembly, module, or type are not CLS-compliant. The following rules apply: 1) If the element is marked CLSCompliant, any noncompliant members must have the CLSCompliant attribute present with its argument set to false. 2) A comparable CLS-compliant alternative member must be supplied for each member that is not CLS-compliant.</Description>
+   <Resolution Name="Default">Mark {0} with CLSCompliant(true) because it exposes externally visible types.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182156.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824">
+   <Name>Mark assemblies with NeutralResourcesLanguageAttribute</Name>
+   <Description>The NeutralResourcesLanguage attribute informs the ResourceManager of the language used to render the neutral culture's resources for an assembly. When looking up resources in the same culture as the neutral resources language, the ResourceManager automatically uses the resources located in the main assembly, instead of searching for a satellite assembly with the current user interface culture for the current thread. This will improve lookup performance for the first resource you load and can reduce your working set.</Description>
+   <Resolution Name="Default">Because assembly {0} contains a ResX-based resource file, mark it with the NeutralResourcesLanguage attribute, specifying the language of the resources within the assembly. This could improve lookup performance the first time a resource is retrieved.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb385967.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060">
+   <Name>Move P/Invokes to NativeMethods class</Name>
+   <Description>This type contains members with the DllImport attribute. Members with the DllImport attribute should be contained in classes named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Description>
+   <Resolution Name="Default">Because it is a P/Invoke method, {0} should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182161.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="designrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211">
+   <Name>Non-constant fields should not be visible</Name>
+   <Description>Static fields should be constant unless you carefully manage access to the field using locks. Using static variables without making them thread safe can compromise execution state. This rule applies to managed code libraries. If the analyzed assembly is an application, it is usually safe to exclude violations of this rule.</Description>
+   <Resolution Name="Default">Consider making {0} non-public or a constant.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182353.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100">
+   <Name>Review SQL queries for security vulnerabilities</Name>
+   <Description>A SQL command string built from user input is vulnerable to SQL injection attacks. Microsoft SQL Server and other database servers support stored procedures and parameterized SQL queries, which reduce the risk of injection attacks.</Description>
+   <Resolution Name="WithNonLiterals">The query string passed to {0} in {1} could contain the following variables {2}. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182310.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305">
+   <Name>Specify IFormatProvider</Name>
+   <Description>If an overload exists that takes an IFormatProvider argument, it should always be called in favor of an overload that does not. Some methods in the runtime convert a value to or from a string representation and take a string parameter that contains one or more characters, called format specifiers, which indicate how the value is to be converted. If the meaning of the format specifier varies by culture, a formatting object supplies the actual characters used in the string representation. In scenarios where sorting and comparison behavior should never change between cultures, specify CultureInfo.InvariantCulture, otherwise, specify CultureInfo.CurrentCulture.</Description>
+   <Resolution Name="IFormatProviderAlternateString">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be displayed to the user, specify {3} as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify {4}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182190.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyMarshalingForPInvokeStringArguments" Category="Microsoft.Globalization" CheckId="CA2101">
+   <Name>Specify marshaling for P/Invoke string arguments</Name>
+   <Description>When marshaling strings as ANSI (or as Auto on Win9x), some characters may be changed. If best-fit mapping is on, strings that appear different in Unicode will be marshaled to identical ANSI strings, which may lead to incorrect security decisions. Turning best-fit mapping off reduces this risk, as all characters without equivalents are mapped to '?'. Also, note that CharSet.Ansi is the default setting for all string marshaling; Unicode marshaling must be specified explicitly, either as a CharSet setting of DllImport or StructLayout, or as a MarshalAs attribute with a Unicode (or system-dependent) UnmanagedType.</Description>
+   <Resolution Name="Parameter">To reduce security risk, marshal parameter {0} as Unicode, by setting DllImport.CharSet to CharSet.Unicode, or by explicitly marshaling the parameter as UnmanagedType.LPWStr. If you need to marshal this string as ANSI or system-dependent, set BestFitMapping=false; for added security, also set ThrowOnUnmappableChar=true.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182319.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300">
+   <Name>Specify MessageBoxOptions</Name>
+   <Description>In order to run correctly on right-to-left systems, all calls to MessageBox.Show should use the overload that specifies MessageBoxOptions as an argument. Programs should detect whether they are running on a right-to-left system at run-time and pass the appropriate MessageBoxOptions value in order to display correctly.</Description>
+   <Resolution Name="Default">Change {0} to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182191.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053">
+   <Name>Static holder types should not have constructors</Name>
+   <Description>Instances of types that define only static members do not need to be created. Many compilers will automatically add a public default constructor if no constructor is specified. To prevent this, adding an empty private constructor may be required.</Description>
+   <Resolution Name="Default">Because type {0} contains only 'static' ('Shared' in Visual Basic) members, add a default private constructor to prevent the compiler from adding a default public constructor.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182169.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="designrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820">
+   <Name>Test for empty strings using string length</Name>
+   <Description>To test for empty strings, check if String.Length is equal to zero. Constructs such as "".Equals(someString) and String.Empty.Equals(someString) are less efficient than testing the string length. Replace these with checks for someString.Length == 0.</Description>
+   <Resolution Name="IsNullOrEmpty">Replace the call to {0} in {1} with a call to 'String.IsNullOrEmpty'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182279.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="16.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>
